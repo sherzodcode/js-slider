@@ -8,7 +8,7 @@
 .container{
     width: 100%;
     height: 100vh;
-    background: linear-gradient(45deg, #22046b, #e14e42);
+    background: #c4d719;
     position: relative;
 }
 
@@ -66,13 +66,14 @@
 }
 
 #line1, #line2, #line3, #line4{
-    height: 60px;
+    height: 80px;
     width: 10px;
     cursor: pointer;
     transform: translateX(-25%);
 }
 
 #active{
+    color: #c4d719;
     width: 5px;
     height: 80px;
     border-radius: 10px;
